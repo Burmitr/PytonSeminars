@@ -26,20 +26,19 @@
 # Необходимо вывести на экран максимальное и второе максимальное число из введенных чисел.
 
 count = int(input('Задайте количество вводимых чисел: '))
+numbers = []
 temp = 1
-max1 = 0
-max2 = 0
 
 for i in range(count):
     num = int(input(f'Введите число <{temp}> из <{count}>: '))
     temp+=1
-    if num > max1:
-        max1 = num
-        max2 = max1
+    numbers.append(num)
 
+print(f'Введены числа --> {numbers}')
 
-            print(max1)
-            print(max2)
+numbers.sort()
+
+print(f'Максимум = {numbers[-1]} \nВторой максимум = {numbers[-2]}')
 
 
 
