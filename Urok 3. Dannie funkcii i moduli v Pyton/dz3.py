@@ -7,7 +7,6 @@
 #         answer = conversion_table[temp] + answer
 #         decimal //= 16
 #     return answer
-import sys
 
 # num = int(input('Введите число: '))
 #
