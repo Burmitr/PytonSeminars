@@ -20,8 +20,6 @@
 #   def perimeter(self):
 #       return 4 * self.side
 #
-#
-#
 #   def print_shape_info(shape):
 #       print(f'Area = {shape.area()}, perimeter = {shape.perimeter()}')
 #

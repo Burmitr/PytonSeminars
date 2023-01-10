@@ -22,6 +22,7 @@ def print_game_field():
         print()
 
 print_game_field()
+# для примера оффтопа
 
 while x_of_ship != x_of_strike and y_of_ship != y_of_strike:
     x_of_strike = int(input(f'Для выстрела введите номер строки от 1 до {field_size}: '))
